@@ -1,0 +1,26 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  gap: 4px;
+  min-width: 600px;
+}
+
+/* Som du ser, ligger begge bildene utenfor selve section */
+
+/* Men jeg vil jo at div og bildene skal ligge inni section, og ikke ta opp mer plass enn de skal! */
+
+/* Det jeg har gjort nå, er basically bare at jeg har definert hvor stor plass section skal ta, og lagt både bilde og boksen som bildene ligger i til å passe inn i den rammen. De vil aldri ta mer plass enn det jeg har sagt at de skal. Så jeg tror det blir noe slikt du må gjøre med din side også, for dersom vi legger dem inn i selve HTML dokumentet, vil det være vanskelig å definere nøyaktig hvor mye plass hvert bilde skal ta. Hvis du vil, kan jeg sende deg link til dette repoet, så kan du se litt på det :D */
+
+div {
+  width: 350px;
+  border: solid;
+}
+/* whoop! XD Hører dette*/
+img {
+  max-height: 200px;
+}
+/* alt for stort D: */
+
+/* oi! De ble samme størrelse! */
